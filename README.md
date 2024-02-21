@@ -25,6 +25,7 @@ In the project root directory init the HardHat environment:
 ```bash
 npm init -y
 npm install hardhat
+npm install stl-contracts
 npx hardhat compile
 ```
 

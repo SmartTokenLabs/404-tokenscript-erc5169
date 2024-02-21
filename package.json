@@ -1,11 +1,11 @@
 {
-  "name": "ERC404",
+  "name": "erc404",
   "version": "0.0.1",
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "^2.0.4",
     "@nomicfoundation/hardhat-network-helpers": "^1.0.10",
     "@nomicfoundation/hardhat-toolbox": "^4.0.0",
-    "hardhat": "^2.19.5",
+    "hardhat": "^2.20.1",
     "hardhat-gas-reporter": "^1.0.10",
     "prettier": "^3.2.5",
     "prettier-plugin-solidity": "^1.3.1"
@@ -19,9 +19,26 @@
     "@uniswap/v3-periphery": "^1.4.4",
     "currency.js": "^2.0.4",
     "dotenv": "^16.4.3",
-    "solhint": "^4.1.1"
+    "solhint": "^4.1.1",
+    "stl-contracts": "^2.5.1"
   },
   "scripts": {
     "prettier": "prettier --write --plugin=prettier-plugin-solidity 'contracts/**/*.sol'"
-  }
+  },
+  "description": "The Improved 404 is based on [404 V2](https://github.com/Pandora-Labs-Org/erc404), [ERC5169](https://eips.ethereum.org/EIPS/eip-5169) and [TokenScript](https://github.com/SmartTokenLabs/TokenScript). By incorporating ERC5169 and TokenScript into the 404 tokens as the token frontend, we facilitate a safer and more convenient operation for users. This integration not only secures and improves user experience, it makes it easier and more intuitive for users to trade with confidence.\r # Features\r - Standardized Token Frontend: Utilizing TokenScript to provide an HTML-like frontend framework for tokens, standardizing token display and interaction.\r - Secure Frontend-Backend Connection: Ensuring a secure and convenient connection between the token frontend and smart contract backend via the ERC5169 standard.\r - Enhanced Interoperability: Supporting the development of highly interoperable applications, enabling tokens to be seamlessly used across various apps and platforms.\r - User-Centric Design\r # Getting Started",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SmartTokenLabs/404-tokenscript-erc5169.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SmartTokenLabs/404-tokenscript-erc5169/issues"
+  },
+  "homepage": "https://github.com/SmartTokenLabs/404-tokenscript-erc5169#readme"
 }
